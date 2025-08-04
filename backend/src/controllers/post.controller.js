@@ -1,5 +1,5 @@
-const postModel = require('src/models/post.model')
-const generateCaption = require('src/service/ai.service')
+const postModel = require('../models/post.model')
+const generateCaption = require('../service/ai.service')
 
 async function createPostController(req, res) {
     const file = req.file;

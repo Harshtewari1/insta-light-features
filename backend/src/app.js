@@ -1,6 +1,6 @@
 const express = require('express')
-const authRoutes = require('src/routes/auth.routes')
-const postRoutes = require('src/routes/post.routes')
+const authRoutes = require('./routes/auth.routes')
+const postRoutes = require('./routes/post.routes')
 const cookieParser = require('cookie-parser')
 
 
